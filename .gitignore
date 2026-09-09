@@ -1,0 +1,14 @@
+# 业务数据与生成结果
+*.xlsx
+*.xls
+*.csv
+*.tsv
+outputs/
+preview/
+
+# 本地依赖与缓存
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

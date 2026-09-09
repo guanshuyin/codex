@@ -1,0 +1,6 @@
+interface:
+  display_name: "补货分析"
+  short_description: "基于销量、市场、竞品及库存生成帐篷需求预测和补货计划"
+  default_prompt: "使用 $replenishment-analysis 分析这份帐篷销量库存表并生成需求预测与补货计划。"
+policy:
+  allow_implicit_invocation: true
