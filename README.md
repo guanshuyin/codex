@@ -28,16 +28,34 @@ $replenishment-analysis
 使用 $replenishment-analysis 分析这份帐篷销量库存表并生成需求预测与补货计划。
 ```
 
-### 安装方式
+## 宏观市场调研
 
-将 `skills/replenishment-analysis` 复制到本机 Codex 技能目录：
+`amazon-macro-market-research` 用于调研用户指定的 Amazon 末级类目，获取滚动 24 个月市场与搜索数据，分析市场容量、季节、价格、产品画像和竞争格局，并采用对抗性设计给出三级入局判断。
+
+Skill 目录：[skills/amazon-macro-market-research](skills/amazon-macro-market-research/)
+
+### 调用方式
 
 ```text
-~/.codex/skills/replenishment-analysis
+$amazon-macro-market-research
+```
+
+示例：
+
+```text
+使用 $amazon-macro-market-research 调研我提供的 Amazon 末级类目，并生成宏观市场与入局评估。
+```
+
+## 安装方式
+
+将需要的 Skill 目录复制到本机 Codex 技能目录：
+
+```text
+~/.codex/skills/
 ```
 
 重新打开 Codex 会话后即可识别。
 
 ## 数据说明
 
-本仓库只保存 Skill 的规则与参考文档，不包含销量、库存、ASIN 明细、Excel 输出或其他业务数据。
+本仓库只保存 Skill 的规则、参考文档和通用脚本，不包含销量、库存、ASIN 明细、Excel 输出或其他业务数据。

@@ -1,0 +1,7 @@
+interface:
+  display_name: "宏观市场调研"
+  short_description: "生成Amazon末级类目24个月宏观市场与入局评估"
+  default_prompt: "使用 $amazon-macro-market-research 调研我提供的 Amazon 末级类目，并生成宏观市场与入局评估。"
+
+policy:
+  allow_implicit_invocation: true
