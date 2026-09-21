@@ -46,6 +46,24 @@ $amazon-macro-market-research
 使用 $amazon-macro-market-research 调研我提供的 Amazon 末级类目，并生成宏观市场与入局评估。
 ```
 
+## 末级类目款式分类
+
+`amazon-terminal-category-style-analysis` 用于将 Amazon 末级类目中的有效父体 Listing 按主体款式分类，并分别评估市场规模、新品表现、进入难度和机会优先级，最终生成每个款式独立 Excel 与跨款式总览。
+
+Skill 目录：[skills/amazon-terminal-category-style-analysis](skills/amazon-terminal-category-style-analysis/)
+
+### 调用方式
+
+```text
+$amazon-terminal-category-style-analysis
+```
+
+示例：
+
+```text
+使用 $amazon-terminal-category-style-analysis 分析我指定的 Amazon 末级类目，按款式分类并生成可追溯的市场机会报告。
+```
+
 ## 安装方式
 
 将需要的 Skill 目录复制到本机 Codex 技能目录：

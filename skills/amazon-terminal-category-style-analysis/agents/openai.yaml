@@ -1,0 +1,7 @@
+interface:
+  display_name: "市场调研-末级类目款式分类"
+  short_description: "划分Amazon末级类目款式并评估市场机会与进入难度"
+  default_prompt: "使用 $amazon-terminal-category-style-analysis 分析我指定的 Amazon 末级类目，按款式分类并生成可追溯的市场机会报告。"
+
+policy:
+  allow_implicit_invocation: true
