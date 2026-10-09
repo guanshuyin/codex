@@ -64,6 +64,24 @@ $amazon-terminal-category-style-analysis
 使用 $amazon-terminal-category-style-analysis 分析我指定的 Amazon 末级类目，按款式分类并生成可追溯的市场机会报告。
 ```
 
+## 产品评论分类分析
+
+`product-review-classification-analysis` 用于按评论星级识别产品问题与优势，在 Excel 的 F/G 列写入分类和可优化功能点，并生成评论分类汇总页。
+
+Skill 目录：[skills/product-review-classification-analysis](skills/product-review-classification-analysis/)
+
+### 调用方式
+
+```text
+$product-review-classification-analysis
+```
+
+示例：
+
+```text
+使用 $product-review-classification-analysis 分析这份产品评论表，分类问题、优势并提取产品优化需求。
+```
+
 ## 安装方式
 
 将需要的 Skill 目录复制到本机 Codex 技能目录：
