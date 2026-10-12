@@ -1,7 +1,7 @@
 interface:
   display_name: "产品调研-评价分类分析"
   short_description: "对产品评论分类、汇总并提取可执行改进需求"
-  default_prompt: "使用 $product-review-classification-analysis 分析这份产品评论表并生成分类汇总。"
+  default_prompt: "使用 $product-review-classification-analysis 下载并分析这些 ASIN 的 Amazon 评论："
 
 policy:
   allow_implicit_invocation: true

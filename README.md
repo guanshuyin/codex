@@ -66,7 +66,7 @@ $amazon-terminal-category-style-analysis
 
 ## 产品评论分类分析
 
-`product-review-classification-analysis` 用于按评论星级识别产品问题与优势，在 Excel 的 F/G 列写入分类和可优化功能点，并生成评论分类汇总页。
+`product-review-classification-analysis` 接收一个或多个 ASIN，通过卖家精灵 MCP 下载评论，按星级识别产品问题与优势，在 Excel 的 F/G 列写入分类和可优化功能点，并生成评论分类汇总页。超过 5 个 ASIN 时会将全部评论合并到同一总表分析。
 
 Skill 目录：[skills/product-review-classification-analysis](skills/product-review-classification-analysis/)
 
@@ -79,7 +79,7 @@ $product-review-classification-analysis
 示例：
 
 ```text
-使用 $product-review-classification-analysis 分析这份产品评论表，分类问题、优势并提取产品优化需求。
+使用 $product-review-classification-analysis 分析以下 ASIN 的评论，分类问题、优势并提取产品优化需求：B0XXXXXXXX
 ```
 
 ## 安装方式
